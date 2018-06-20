@@ -51,12 +51,11 @@ $(document).ready(function(){
             }
 
             //When user clicks on the gif it will start/stop it
-            $(document.body).on('click', 'img', function(){
+            $('img').on('click', function(){
                 let src = $(this).attr('src');
                 if (src.substr(src.length - 5) === 's.gif'){
                     $(this).attr('src', src.replace('_s.gif', '.gif'));
                 } else if (src.substr(src.length - 5) === '0.gif'){
-                    console.log(src);
                     $(this).attr('src', src.replace('.gif', '_s.gif'));
                 }
             });
