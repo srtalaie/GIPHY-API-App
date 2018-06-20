@@ -1,9 +1,17 @@
+body{
+    background-image: url('../images/035\ Itmeo\ Branding.png');
+    background-size: cover;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
 .form-element{
     margin: 10px;
 }
 
 form{
     border: 2px solid red;
+    background-color: whitesmoke;
+    border-radius: 10%;
 }
 
 .topics-button{
@@ -12,4 +20,21 @@ form{
 
 img{
     margin: 10px;
+}
+
+button{
+    border-radius: 10%;
+    box-shadow: 1px 0px 2px black;
+}
+
+h1{
+    text-align: center;
+}
+
+.gifs{
+    margin: 10px 0px;
+}
+
+.rating{
+    padding-top: 25px;
 }
